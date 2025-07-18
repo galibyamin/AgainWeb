@@ -1,19 +1,77 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 50px;
     font-weight: bold;
 }
+h2{
+    font-size: 40px;
+    font-weight: bold;
+}
 .name{
-    color: orange;
+    color: rgb(234, 113, 7);
 }
-.first{
+section{
+    height: 500px;
+    padding-bottom: 150px;
+    border: 1px solid red;
+}
+.half-width{
     width: 40%;
-    float: left; 
-    margin: 5%;
-    padding: 2%;
+    margin-left: 3%;
+    padding-left: 2% ;
+    float: left;
 }
-.first img{
-    width: 100%;
+.half-width img{
+    width: 80%;
+    border-radius: 500px;
+    box-shadow: 10px 10px 40px rgb(17, 33, 60);
+    
+}
+.button{
+    background-image: linear-gradient(45deg, rgb(141, 220, 31), tomato);
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-weight: bold;
+}
+.top-section{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.middle-section{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single{
+    box-shadow: 10px 10px 40px gray;
+    height: 80%;
+    border-radius: 5px;
+    background-color: white;
+    
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#noob{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, rgb(34, 177, 8), rgb(140, 6, 224));
+    border-image-slice: 1;
+}
+#pro{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, rgb(34, 177, 8), rgb(140, 6, 224));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+
 }
